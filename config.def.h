@@ -5,10 +5,11 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Cascadia Mono:pixelsize=14:antialias=true:autohint=true";
+static char *font = "Noto Sans Mono:pixelsize=14:antialias=true:autohint=true";
 /* Spare fonts */
 static char *font2[] = {
 	"Symbols Nerd Font:pixelsize=14:antialias=true:autohint=true", 
+    "Font Awesome 7 Free:pixelsize=14:antialias=true:autohint=true", 
 };
 
 static int borderpx = 8;
