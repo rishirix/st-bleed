@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "monospace:style=Bold:pixelsize=14:antialias=true:autohint=true";
+static char *font = "monospace:style=Regular:pixelsize=14:antialias=true:autohint=true";
 /* Spare fonts */
 static char *font2[] = {
 	"Symbols Nerd Font:pixelsize=14:antialias=true:autohint=true", 
@@ -121,38 +121,38 @@ float alpha = 0.9;
 static const char *colorname[] = {
 
   /* 8 normal colors */
-  [0] = "#1d1f21", /* black   */
-  [1] = "#cc342b", /* red     */
-  [2] = "#198844", /* green   */
-  [3] = "#fba922", /* yellow  */
-  [4] = "#3971ed", /* blue    */
-  [5] = "#a36ac7", /* magenta */
-  [6] = "#3971ed", /* cyan    */
-  [7] = "#c5c8c6", /* white   */
+  [0] = "#101010", /* black   */
+  [1] = "#e84f4f", /* red     */
+  [2] = "#b8d68c", /* green   */
+  [3] = "#e1aa5d", /* yellow  */
+  [4] = "#7dc1cf", /* blue    */
+  [5] = "#9b64fb", /* magenta */
+  [6] = "#6d878d", /* cyan    */
+  [7] = "#dddddd", /* white   */
 
   /* 8 bright colors */
-  [8]  = "#969896", /* black   */
-  [9]  = "#cc342b", /* red     */
-  [10] = "#198844", /* green   */
-  [11] = "#fba922", /* yellow  */
-  [12] = "#3971ed", /* blue    */
-  [13] = "#a36ac7", /* magenta */
-  [14] = "#3971ed", /* cyan    */
-  [15] = "#ffffff", /* white   */
+  [8]  = "#404040", /* black   */
+  [9]  = "#d23d3d", /* red     */
+  [10] = "#a0cf5d", /* green   */
+  [11] = "#f39d21", /* yellow  */
+  [12] = "#4e9fb1", /* blue    */
+  [13] = "#8542ff", /* magenta */
+  [14] = "#42717b", /* cyan    */
+  [15] = "#dddddd", /* white   */
 
   /* special colors */
-  [256] = "#ffffff", /* background */
-  [257] = "#373b41", /* foreground */
+  [256] = "#151515", /* background */
+  [257] = "#d7d0c7", /* foreground */
 };
 
 /*
  * Default colors (colorname index)
  * foreground, background, cursor
  */
-unsigned int defaultfg = 257;
-unsigned int defaultbg = 256;
-unsigned int defaultcs = 257;
-static unsigned int defaultrcs = 256;
+ unsigned int defaultfg = 257;
+ unsigned int defaultbg = 256;
+ unsigned int defaultcs = 257;
+ static unsigned int defaultrcs = 256;
 
 /*
  * Colors used, when the specific fg == defaultfg. So in reverse mode this
