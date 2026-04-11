@@ -5,9 +5,9 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Monospace:pixelsize=14:antialias=true:autohint=true";
+static char *font = "Monospace:pixelsize=11:antialias=true:autohint=true";
 static char *font2[] = {
-  "Symbols Nerd Font:pixelsize=14:antialias=true:autohint=true",
+  "Symbols Nerd Font:pixelsize=11:antialias=true:autohint=true",
 };
 static int borderpx = 8;
 
@@ -109,34 +109,34 @@ char *termname = "st-256color";
 unsigned int tabspaces = 8;
 
 /* bg opacity */
-float alpha = 0.7;
+float alpha = 0.9;
 
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
  /* 8 normal colors */
-  [0] = "#000000", /* black   */
-  [1] = "#e92f2f", /* red     */
-  [2] = "#0ed839", /* green   */
-  [3] = "#dddd13", /* yellow  */
-  [4] = "#3b48e3", /* blue    */
-  [5] = "#f996e2", /* magenta */
-  [6] = "#23edda", /* cyan    */
-  [7] = "#ababab", /* white   */
+  [0] = "#252525", /* black   */
+  [1] = "#ef6769", /* red     */
+  [2] = "#a6e22e", /* green   */
+  [3] = "#fd971f", /* yellow  */
+  [4] = "#6495ed", /* blue    */
+  [5] = "#deb887", /* magenta */
+  [6] = "#b0c4de", /* cyan    */
+  [7] = "#dbdcdc", /* white   */
 
   /* 8 bright colors */
-  [8]  = "#343434", /* black   */
-  [9]  = "#e92f2f", /* red     */
-  [10] = "#0ed839", /* green   */
-  [11] = "#dddd13", /* yellow  */
-  [12] = "#3b48e3", /* blue    */
-  [13] = "#f996e2", /* magenta */
-  [14] = "#23edda", /* cyan    */
-  [15] = "#f9f9f9", /* white   */
+  [8]  = "#454545", /* black   */
+  [9]  = "#fc7ca5", /* red     */
+  [10] = "#b6e354", /* green   */
+  [11] = "#fd971f", /* yellow  */
+  [12] = "#87ceeb", /* blue    */
+  [13] = "#996600", /* magenta */
+  [14] = "#87ceeb", /* cyan    */
+  [15] = "#fdfdfd", /* white   */
 
   /* special colors */
   [256] = "#000000", /* background */
-  [257] = "#ababab", /* foreground */
+  [257] = "#ffffff", /* foreground */
 };
 
 /*
