@@ -5,11 +5,11 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Monospace:pixelsize=11:antialias=true:autohint=true";
+static char *font = "Monospace:pixelsize=18:antialias=true:autohint=true";
 static char *font2[] = {
-  "Symbols Nerd Font:pixelsize=11:antialias=true:autohint=true",
+  "Symbols Nerd Font:pixelsize=18:antialias=true:autohint=true",
 };
-static int borderpx = 8;
+static int borderpx = 2;
 
 /*
  * What program is execed by st depends of these precedence rules:
@@ -114,29 +114,29 @@ float alpha = 0.9;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
- /* 8 normal colors */
-  [0] = "#252525", /* black   */
-  [1] = "#ef6769", /* red     */
-  [2] = "#a6e22e", /* green   */
-  [3] = "#fd971f", /* yellow  */
-  [4] = "#6495ed", /* blue    */
-  [5] = "#deb887", /* magenta */
-  [6] = "#b0c4de", /* cyan    */
-  [7] = "#dbdcdc", /* white   */
+/* 8 normal colors */
+  [0] = "#1d1f21", /* black   */
+  [1] = "#cc6666", /* red     */
+  [2] = "#b5bd68", /* green   */
+  [3] = "#f0c674", /* yellow  */
+  [4] = "#81a2be", /* blue    */
+  [5] = "#b294bb", /* magenta */
+  [6] = "#8abeb7", /* cyan    */
+  [7] = "#c5c8c6", /* white   */
 
   /* 8 bright colors */
-  [8]  = "#454545", /* black   */
-  [9]  = "#fc7ca5", /* red     */
-  [10] = "#b6e354", /* green   */
-  [11] = "#fd971f", /* yellow  */
-  [12] = "#87ceeb", /* blue    */
-  [13] = "#996600", /* magenta */
-  [14] = "#87ceeb", /* cyan    */
-  [15] = "#fdfdfd", /* white   */
+  [8]  = "#969896", /* black   */
+  [9]  = "#cc6666", /* red     */
+  [10] = "#b5bd68", /* green   */
+  [11] = "#f0c674", /* yellow  */
+  [12] = "#81a2be", /* blue    */
+  [13] = "#b294bb", /* magenta */
+  [14] = "#8abeb7", /* cyan    */
+  [15] = "#ffffff", /* white   */
 
   /* special colors */
-  [256] = "#000000", /* background */
-  [257] = "#ffffff", /* foreground */
+  [256] = "#1d1f21", /* background */
+  [257] = "#c5c8c6", /* foreground */
 };
 
 /*
